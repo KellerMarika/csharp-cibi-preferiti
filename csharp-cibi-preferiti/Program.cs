@@ -21,7 +21,7 @@ Console.WriteLine($"il piatto 'preferito ma non troppo': {cibiPreferiti[cibiPref
 if (cibiPreferiti.Length % 2 == 0)
 {
 
- Console.WriteLine($"i 2 cibi di mezza classifica sono: {cibiPreferiti[cibiPreferiti.Length / 2 -1]} in {cibiPreferiti.Length / 2 }° posizione &  {cibiPreferiti[cibiPreferiti.Length / 2]} in {cibiPreferiti.Length / 2 + 1}° posizione"); }
+ Console.WriteLine($"i 2 cibi di mezza classifica sono: {cibiPreferiti[cibiPreferiti.Length / 2 -1]} in {cibiPreferiti.Length / 2 }° posizione & {cibiPreferiti[cibiPreferiti.Length / 2]} in {cibiPreferiti.Length / 2 + 1}° posizione"); }
 
 else
 Console.WriteLine($"il cibo di mezza classifica: {cibiPreferiti[cibiPreferiti.Length / 2]} in {cibiPreferiti.Length / 2 +1}° posizione");
